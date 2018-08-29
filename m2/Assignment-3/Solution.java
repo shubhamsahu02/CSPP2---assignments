@@ -2,6 +2,9 @@ import java.util.Scanner;
 /* class begins
  **/
 public final class Solution {
+    /**
+     * Class.
+     **/
     private Solution() {
         /**
         it is a constructor
