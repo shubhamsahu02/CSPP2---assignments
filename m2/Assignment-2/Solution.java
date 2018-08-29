@@ -19,7 +19,7 @@ public static void rootsOfQuadraticEquation(int a, int b, int c) {
 	double result = ((b * b) - t * a * c);
 	double root1 = (-b + Math.sqrt(result)) / (2 * a);
 	double root2 = (-b - Math.sqrt(result)) / (2 * a);
-    System.out.println(root1+ " " +root2);
+    System.out.println(root1 + " " + root2);
 }
 }
 
