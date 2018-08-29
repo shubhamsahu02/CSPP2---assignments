@@ -21,11 +21,9 @@ public class Solution {
     /**
      * @brief [brief description]
      * @details [long description]
-     * 
      * @param a [description]
      * @param b [description]
      * @param c [description]
-     
     Need to write the rootsOfQuadraticEquation function and print the output.
     **/
 public static void rootsOfQuadraticEquation(final int a, final int b, final int c) {
