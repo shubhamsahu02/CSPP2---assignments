@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 /** 
  * @param args.
  */
@@ -10,7 +9,11 @@ public final class Solution {
 	/**
 	 * @param string.
 	 */
-	private Solution() {}
+	private Solution() {
+		/**
+		it is a constructor
+		**/
+	}
 	/**
 	 * @param string.
 	 */
