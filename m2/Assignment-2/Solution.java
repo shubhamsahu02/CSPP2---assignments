@@ -25,7 +25,8 @@ public class Solution {
      * @param c [description]
     Need to write the rootsOfQuadraticEquation function and print the output.
     **/
-public static void rootsOfQuadraticEquation(final int a, final int b, final int c) {
+public static void rootsOfQuadraticEquation(
+    final int a, final int b, final int c) {
     final int t = 4;
     double result = ((b * b) - t * a * c);
     double root1 = (-b + Math.sqrt(result)) / (2 * a);
