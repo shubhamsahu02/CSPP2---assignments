@@ -1,9 +1,16 @@
 import java.util.Scanner;
 
 public class Solution {
-    /*
-    Do not modify this main function.
-    */
+    /**
+     * empty constructor.
+     */
+    protected Solution() { }
+    /**
+     * @brief [brief description]
+     * @details [long description]
+     * 
+     * @param args [description]
+     **/
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
