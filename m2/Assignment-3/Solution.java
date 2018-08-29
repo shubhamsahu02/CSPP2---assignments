@@ -14,7 +14,7 @@ public class Solution {
 	/*
 	Need to write the power function and prdouble the output.
 	*/
-public static double power(final double base, final double exponent) {
+public static long power(final long base, final long exponent) {
 	if (exponent == 0) {
 		return 1;
 	}
