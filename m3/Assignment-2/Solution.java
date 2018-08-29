@@ -1,37 +1,39 @@
+/**
+    *import scanner.
+    */
 import java.util.Scanner;
 /**
- *this is import
- */
+    *Do not modify this main function.
+    */
+public final class Solution {
+/**
+    * constructor.
+    */
+    private Solution() {
 
-final class Solution {
-    /**
-     * this is a class
-     */
-    private Solution() { }
-    /**
-     * @param args [description]
-     */
+    }
+/**
+*Fill the main function to print the number of 7's between 1 to n.
+*@param args String
+*/
     public static void main(final String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int n = scan.nextInt();
-        int m = scan.nextInt();
-        gcd(n, m);
-        System.out.println(gcd(n, m));
-    }
 
-    /**
-     * @param n num
-     * @param m num
-     * @return [description]
-     */
-
-    public static int gcd(final int n, final int m) {
-        if  (m == 0) {
-            return n;
-        } else {
-        return gcd(m, (n % m));
-    }
-
+        Scanner s = new Scanner(System.in);
+        final int n = s.nextInt();
+        int count = 0;
+        final int a = 10, b = 7;
+        for (int i = 1; i <= n; i++) {
+            int temp = i;
+            while (temp != 0) {
+                int j = temp % a;
+                if (j == b) {
+                    count++;
+                }
+                temp = temp / a;
+            }
+        }
+        System.out.println(count);
     }
 }
+
 
