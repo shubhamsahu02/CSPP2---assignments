@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Solution {
     /**
      * empty constructor.
-     */
+     **/
     protected Solution() { }
     /**
      * @brief [brief description]
