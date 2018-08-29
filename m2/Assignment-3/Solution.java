@@ -2,21 +2,23 @@ import java.util.Scanner;
 /* class begins
  **/
 public final class Solution {
-    /*
-    Do not modify this main function.
-    */
-    /**
-     * @param args string.
-     */
     private Solution() {
         /**
         it is a constructor
         **/
     }
     /**
-     * @param string.
-     */
-    public static void main(String[] args) {
+    * @param string.
+    * @param args */
+    public static void main(final String[] args) {
+        /**
+         * @brief [brief description]
+         * @details [long description]
+         * 
+         * @param  base long
+         * @param  exponent long
+         * @return long
+         */
         Scanner s = new Scanner(System.in);
         long base = s.nextLong();
         long exponent = s.nextLong();
@@ -32,9 +34,13 @@ public final class Solution {
      * @return power.
      */
 public static long power(final long base, final long exponent) {
+    /**
+    * main fubction of class
+     */
     if (exponent == 0) {
         return 1;
-    } else {
+    }
+    else {
         return base * power(base, exponent - 1);
     }
     }
