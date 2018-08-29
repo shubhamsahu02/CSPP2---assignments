@@ -12,9 +12,8 @@ public final class Solution {
     * @param args */
     public static void main(final String[] args) {
         /**
-         * @brief [brief description]
-         * @details [long description]
-         * 
+         * @brief [brief description.
+         * @details [long description.
          * @param  base long
          * @param  exponent long
          * @return long
@@ -39,10 +38,8 @@ public static long power(final long base, final long exponent) {
      */
     if (exponent == 0) {
         return 1;
-    }
-    else {
+    } else {
         return base * power(base, exponent - 1);
     }
     }
 }
-
