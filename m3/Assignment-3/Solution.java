@@ -1,11 +1,11 @@
 import java.util.Scanner;
 /**
- *this is import
+ *this is import.
  */
 
 final class Solution {
     /**
-     * this is a class
+     * this is a class.
      */
     private Solution() { }
     /**
