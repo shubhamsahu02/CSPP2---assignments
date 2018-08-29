@@ -1,13 +1,12 @@
 import java.util.Scanner;
-/**
- * @param args.
- */
+/* class begins
+ **/
 public final class Solution {
     /*
     Do not modify this main function.
     */
     /**
-     * @param string.
+     * @param args string.
      */
     private Solution() {
         /**
