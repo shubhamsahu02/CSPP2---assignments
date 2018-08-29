@@ -18,9 +18,16 @@ public class Solution {
         int c = scan.nextInt();
         rootsOfQuadraticEquation(a, b, c);
     }
-    /*
+    /**
+     * @brief [brief description]
+     * @details [long description]
+     * 
+     * @param a [description]
+     * @param b [description]
+     * @param c [description]
+     
     Need to write the rootsOfQuadraticEquation function and print the output.
-    */
+    **/
 public static void rootsOfQuadraticEquation(final int a, final int b, final int c) {
     int t = 4;
     double result = ((b * b) - t * a * c);
