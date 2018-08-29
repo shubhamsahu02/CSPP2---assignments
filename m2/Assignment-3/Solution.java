@@ -46,4 +46,3 @@ public static long power(final long base, final long exponent) {
     }
     }
 }
-
