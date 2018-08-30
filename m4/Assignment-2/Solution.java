@@ -5,8 +5,6 @@ import java.util.Scanner;
 final class Solution {
     /* Fill the main function to print resultant of addition of matrices*/
     /**
-     * @brief [brief description]
-     * @details [long description]
      * @return [description]
      */
     private Solution() { }
