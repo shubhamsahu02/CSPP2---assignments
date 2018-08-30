@@ -1,6 +1,9 @@
-import java.util.*;
-public class Solution {
-	/* Fill the main function to print resultant of addition of matrices*/
+import java.util.Scanner;
+/**
+ * @param String [description]
+ */
+final class Solution {
+    /* Fill the main function to print resultant of addition of matrices*/
 public static void main(final String[] args) {
       int[][] arr1;
       int[][] arr2;
@@ -35,7 +38,7 @@ public static void main(final String[] args) {
             System.out.print(sum[i][j]);
              if (j < column2 - 1) {
                 System.out.print(" ");
-	}
+    }
       }
     System.out.println("");
     }
