@@ -5,10 +5,10 @@ final class Solution {
     Fill this main function to print maximum of given array
     */
     /**
-     * @brief
-     * @details
-     * 
-     * @param args
+     * This is a class.
+     *
+     *
+     * @param args [description]
      */
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
