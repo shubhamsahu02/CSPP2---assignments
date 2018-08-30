@@ -1,17 +1,20 @@
 import java.util.Scanner;
 /**
- * @param String
+ *main class.
  */
-final class Solution {
+public final class Solution {
     /* Fill the main function to print resultant of addition of matrices*/
     /**
-     * @return [description]
+     * //@return [description]
      */
-    private Solution() { }
+    private Solution() {
+     }
+   
     /**
      * @param args [description]
      */
-public static void main(final String[] args) {
+
+    public static void main(final String[] args) {
       int[][] arr1;
       int[][] arr2;
       int[][] sum;
@@ -49,7 +52,7 @@ public static void main(final String[] args) {
       }
     System.out.println("");
     }
-} else {
+    } else {
     System.out.println("not possible");
 }
 }
