@@ -4,11 +4,15 @@ import java.util.Scanner;
  */
 final class Solution {
     /* Fill the main function to print resultant of addition of matrices*/
-/**
- 
-
- * @param String [description]
- */
+    /**
+     * @brief [brief description]
+     * @details [long description]
+     * @return [description]
+     */
+    private Solution() { }
+    /**
+     * @param args [description]
+     */
 public static void main(final String[] args) {
       int[][] arr1;
       int[][] arr2;
