@@ -40,7 +40,7 @@ public static void main(final String[] args) {
     System.out.println("");
     }
 } else {
-    System.out.println("Not Possible");
+    System.out.println("not possible");
 }
 }
 
