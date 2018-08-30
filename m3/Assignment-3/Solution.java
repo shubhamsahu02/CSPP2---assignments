@@ -2,7 +2,6 @@ import java.util.Scanner;
 /**
  *this is import.
  */
-
 final class Solution {
     /**
      * this is a class.
