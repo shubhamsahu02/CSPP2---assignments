@@ -1,8 +1,6 @@
 
 import java.util.Scanner;
 /**
- * @brief [brief description]
- * @details [long description]
  * @return [description]
  */
 final class Solution {
