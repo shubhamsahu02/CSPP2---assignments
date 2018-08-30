@@ -4,6 +4,9 @@ import java.util.Scanner;
  */
 final class Solution {
     /* Fill the main function to print resultant of addition of matrices*/
+/**
+ * @param String [description]
+ */
 public static void main(final String[] args) {
       int[][] arr1;
       int[][] arr2;
