@@ -5,11 +5,11 @@ import java.util.Scanner;
 public final class Solution {
     /* Fill the main function to print resultant of addition of matrices*/
     /**
-     * //@return [description]
+     * //@return.
      */
     private Solution() {
      }
-   
+
     /**
      * @param args [description]
      */
