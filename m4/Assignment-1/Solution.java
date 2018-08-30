@@ -5,6 +5,10 @@ final class Solution {
     Fill this main function to print maximum of given array
     */
     /**
+     * this is a class.
+     */
+    private Solution() { }
+    /**
      * @param args [description]
      */
     public static void main(String[] args) {
