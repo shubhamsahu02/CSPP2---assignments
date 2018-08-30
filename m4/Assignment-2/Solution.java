@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /**
- * @param String [description]
+ * @param String
  */
 final class Solution {
     /* Fill the main function to print resultant of addition of matrices*/
