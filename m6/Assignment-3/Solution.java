@@ -25,14 +25,14 @@ final class Solution {
      */
     static char[] replaceAll(final char[] charArray,
         final char oldChar, final char newChar) {
-	// write your code here
+    // write your code here
         for (int i = 0; i < charArray.length; i++) {
-            if(charArray[i] == oldChar) {
+            if (charArray[i] == oldChar) {
                 charArray[i] = newChar;
             }
         }
             return charArray;
-        
+
     }
     /**
      * Main function.
