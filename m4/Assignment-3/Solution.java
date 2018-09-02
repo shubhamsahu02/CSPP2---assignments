@@ -10,7 +10,6 @@ import java.util.Scanner;
  */
 public final class Solution {
     /**
-     * @param args [description]
      *
      */
     private Solution() { }
