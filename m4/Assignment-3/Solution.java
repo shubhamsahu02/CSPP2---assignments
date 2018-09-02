@@ -5,13 +5,13 @@ Write a java method that returns the decimal value for the given binary string.
 
 import java.util.Scanner;
 
-public class Solution {
-	/**
-	 * @brief [brief description]
-	 * @details [long description]
-	 *
-	 * @param args [description]
-	 */
+public final class Solution {
+    /**
+     * @brief [brief description]
+     * @details [long description]
+     *
+     * @param args [description]
+     */
 
 /**
  * @brief [brief description]
