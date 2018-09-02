@@ -14,7 +14,9 @@ public final class Solution {
      * @details [long description]
      *
      * @param args [description]
+     *
      */
+    private Solution () { }
 
 /**
  * @brief [brief description]
