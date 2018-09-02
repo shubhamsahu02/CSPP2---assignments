@@ -10,6 +10,7 @@ public final class Solution {
 /*
     Do not modify the main function
     */
+    //.
     private Solution() { }
     /**
      * @brief [brief description]
