@@ -3,10 +3,16 @@
 
 
 import java.util.Scanner;
-public class Solution
-{/*
+public class Solution {
+/*
     Do not modify the main function 
     */
+    /**
+     * @brief [brief description]
+     * @details [long description]
+     * 
+     * @param args [description]
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
