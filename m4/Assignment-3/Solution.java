@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 /**
  */
-public final class Solution {
+final class Solution {
     /**
      * @brief [brief description]
      * @details [long description]
