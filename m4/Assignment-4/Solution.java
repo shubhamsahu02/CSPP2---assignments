@@ -6,13 +6,13 @@ import java.util.Scanner;
 //.
 public final class Solution {
 /*
-    Do not modify the main function 
+    Do not modify the main function
     */
     private Solution() { }
     /**
      * @brief [brief description]
      * @details [long description]
-     * 
+     *
      * @param args [description]
      */
     public static void main(final String[] args) {
@@ -21,7 +21,13 @@ public final class Solution {
         String reverse = reverseString(s);
         System.out.println(reverse);
     }
-    //Write reverseString function
+    /**
+     * @brief [brief description]
+     * @details [long description]
+     * 
+     * @param String [description]
+     * @return [description]
+     */
 
 public static String reverseString(final String s) {
     String reverse = "";
