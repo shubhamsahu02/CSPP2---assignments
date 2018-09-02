@@ -5,8 +5,8 @@ Write a java method that returns the decimal value for the given binary string.
 
 import java.util.Scanner;
 
-/**
- This is a class
+/**.
+ This is a class.
  */
 public final class Solution {
     /**
