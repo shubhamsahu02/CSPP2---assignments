@@ -4,8 +4,6 @@
 
 import java.util.Scanner;
 /**
- * @brief [brief description]
- * @details [long description]
  * @return [description]
  */
 public final class Solution {
@@ -28,7 +26,7 @@ public final class Solution {
     /**
      * @brief [brief description]
      * @details [long description]
-     * 
+     *
      * @param s [description]
      * @return [description]
      */
