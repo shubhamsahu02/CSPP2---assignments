@@ -12,13 +12,13 @@ public class Solution
         String s = sc.nextLine();
         String reverse = reverseString(s);
         System.out.println(reverse);
-        
     }
     //Write reverseString function
 
 public static String reverseString(String s) {
     String reverse = "";
-    for (int i = s.length()-1; i >=0; i--) {
+    //This block of code does the reverse for a given string
+    for (int i = s.length() - 1; i >= 0; i--) {
         reverse = reverse + s.charAt(i);
     }
     return reverse;
