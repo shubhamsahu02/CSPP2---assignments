@@ -1,11 +1,4 @@
 import java.util.Scanner;
-/**
- * @brief [brief description]
- * @details [long description]
- * 
- * @param strCheck1 [description]
- * @return [description]
- */
 class InputValidator {
 	/**
 	 * @brief [brief description]
@@ -54,7 +47,6 @@ public class Solution {
 		 * @details [long description]
 		 * 
 		 * @param  [description]
-		 * @return [description]
 		 */
     	Scanner s = new Scanner(System.in);
     	String input = s.next();
