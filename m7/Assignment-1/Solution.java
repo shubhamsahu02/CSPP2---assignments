@@ -36,16 +36,21 @@ class InputValidator {
 
 }
 /**
-     * @param String [description]
+ main class
  */
 public final class Solution {
 
+    /**
+     * constructor
+     */
     private Solution() {
         /**
          * @param String [description]
          */
     }
-
+/**
+ * @param args [description]
+ */
     public static void main(final String[] args) {
         /**
          * @brief [brief description]
