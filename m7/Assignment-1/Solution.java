@@ -33,8 +33,6 @@ class InputValidator {
 
 }
 /**.
- * @brief [brief description]
- * @details [long description]
  * @param args [description]
  */
 public class Solution {
