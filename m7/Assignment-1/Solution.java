@@ -1,6 +1,5 @@
 import java.util.*;
-class InputValidator
-{
+class InputValidator {
 	/*Write the atrributes and methods for InputValidator*/
 	private String strCheck;
 	private int len;
@@ -10,7 +9,7 @@ class InputValidator
 	}
 
 	public boolean validateData() {
-		int b = 6;
+		final int b = 6;
 		if(len >= b) {
 			return true;
 		}
@@ -18,10 +17,8 @@ class InputValidator
 	}
 
 }
-public class Solution
-{
-	public static void main(String args[])
-    {
+public class Solution {
+	public static void main(String args[]) {
     	Scanner s = new Scanner(System.in);
     	String input = s.next();
     	InputValidator i = new InputValidator(input);    	
