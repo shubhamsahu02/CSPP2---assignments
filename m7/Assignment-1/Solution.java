@@ -1,16 +1,15 @@
 import java.util.Scanner;
 class InputValidator {
-	/**
+	/**.
 	 * @brief [brief description]
 	 * @details [long description]
-	 * 
 	 * @param strCheck1 [description]
 	 * @return [description]
 	 */
 	/*Write the atrributes and methods for InputValidator*/
 	private String strCheck;
 	private int len;
-	/**
+	/**.
 	 * @brief [brief description]
 	 * @details [long description]
 	 * @param strCheck1 [description]
@@ -19,7 +18,7 @@ class InputValidator {
 		strCheck = strCheck1;
 		len = strCheck1.length();
 	}
-/**
+/**.
  * @brief [brief description]
  * @details [long description]
  * @return [description]
@@ -33,17 +32,16 @@ class InputValidator {
 	}
 
 }
-/**
+/**.
  * @brief [brief description]
  * @details [long description]
  * @param args [description]
  */
 public class Solution {
 	public static void main(String args[]) {
-		/**
+		/**.
 		 * @brief [brief description]
 		 * @details [long description]
-		 * 
 		 * @param  [description]
 		 */
     	Scanner s = new Scanner(System.in);
