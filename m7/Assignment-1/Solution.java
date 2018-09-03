@@ -4,7 +4,7 @@ import java.util.Scanner;
  */
 class InputValidator {
     /*Write the atrributes and methods for InputValidator*/
-   /**
+   /**.
     * dfghj
     */
     private String strCheck;
@@ -35,12 +35,12 @@ class InputValidator {
     }
 
 }
-/**
+/**.
  main class
  */
 public final class Solution {
 
-    /**
+    /**.
      * constructor
      */
     private Solution() {
