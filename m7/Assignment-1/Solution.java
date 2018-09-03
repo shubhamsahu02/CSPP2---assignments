@@ -1,11 +1,10 @@
 import java.util.Scanner;
+/**
+ * @brief [brief description]
+ * @details [long description]
+ * 
+ */
 class InputValidator {
-    /**.
-     * @brief [brief description]
-     * @details [long description]
-     * @param strCheck1 [description]
-     * @return [description]
-     */
     /*Write the atrributes and methods for InputValidator*/
     private String strCheck;
     private int len;
