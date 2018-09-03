@@ -25,7 +25,7 @@ class InputValidator {
  */
     public boolean validateData() {
         final int b = 6;
-        if(len >= b) {
+        if (len >= b) {
             return true;
         }
         return false;
