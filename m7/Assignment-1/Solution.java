@@ -32,7 +32,7 @@ class InputValidator {
     }
 
 }
-public class Solution {
+public final class Solution {
 
     public static void main(final String[] args) {
         /**
