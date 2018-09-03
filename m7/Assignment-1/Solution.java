@@ -5,6 +5,9 @@ import java.util.Scanner;
 class InputValidator {
     /*Write the atrributes and methods for InputValidator*/
     private String strCheck;
+    /** 
+     * @param strCheck1 
+     */
     private int len;
     /**.
      * @brief [brief description]
