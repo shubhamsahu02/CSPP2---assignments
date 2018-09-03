@@ -4,6 +4,9 @@ import java.util.Scanner;
  */
 class InputValidator {
     /*Write the atrributes and methods for InputValidator*/
+   /**
+    * dfghj
+    */
     private String strCheck;
     /**
      * @param strCheck1
@@ -14,7 +17,7 @@ class InputValidator {
      * @details [long description]
      * @param strCheck1 [description]
      */
-    InputValidator(String strCheck1) {
+    InputValidator(final String strCheck1) {
         strCheck = strCheck1;
         len = strCheck1.length();
     }
@@ -33,10 +36,7 @@ class InputValidator {
 
 }
 /**
- * @brief [brief description]
- * @details [long description]
- *
- * @param String [description]
+     * @param String [description]
  */
 public final class Solution {
 
