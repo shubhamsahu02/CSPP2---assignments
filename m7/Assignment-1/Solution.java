@@ -1,12 +1,12 @@
 import java.util.Scanner;
-/**
+/**.
  * class begins
  */
 class InputValidator {
     /*Write the atrributes and methods for InputValidator*/
     private String strCheck;
-    /** 
-     * @param strCheck1 
+    /**
+     * @param strCheck1
      */
     private int len;
     /**.
@@ -32,7 +32,19 @@ class InputValidator {
     }
 
 }
+/**
+ * @brief [brief description]
+ * @details [long description]
+ *
+ * @param String [description]
+ */
 public final class Solution {
+
+    private Solution() {
+        /**
+         * @param String [description]
+         */
+    }
 
     public static void main(final String[] args) {
         /**
