@@ -33,11 +33,7 @@ class InputValidator {
 
 }
 public class Solution {
-	/**
-	 * @brief [brief description]
-	 * @details [long description]
-	 * @param String [description]
-	 */
+
 	public static void main(final String[] args) {
 		/**
 		 * @brief [brief description]
