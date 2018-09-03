@@ -1,8 +1,6 @@
 import java.util.Scanner;
 /**
- * @brief [brief description]
- * @details [long description]
- * 
+ * class begins
  */
 class InputValidator {
     /*Write the atrributes and methods for InputValidator*/
