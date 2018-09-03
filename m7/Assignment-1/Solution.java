@@ -13,7 +13,6 @@ class InputValidator {
 	/**
 	 * @brief [brief description]
 	 * @details [long description]
-	 * 
 	 * @param strCheck1 [description]
 	 */
 	InputValidator(String strCheck1) {
@@ -37,7 +36,6 @@ class InputValidator {
 /**
  * @brief [brief description]
  * @details [long description]
- * 
  * @param args [description]
  */
 public class Solution {
@@ -50,7 +48,7 @@ public class Solution {
 		 */
     	Scanner s = new Scanner(System.in);
     	String input = s.next();
-    	InputValidator i = new InputValidator(input);    	
+    	InputValidator i = new InputValidator(input);
     	System.out.println(i.validateData());
 
     }
