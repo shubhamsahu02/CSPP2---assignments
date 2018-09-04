@@ -65,6 +65,11 @@ private int size;
      * The purpose of the constructor is to initialize the
      * class variables with some default values.
      */
+    /**
+     * @brief [brief description].
+     * @details [long description].
+     * @return [description].
+     */
     public List() {
 
         // what are the two variables to be initialized here?
