@@ -46,7 +46,6 @@ public class List {
      * So, to keep track of the size we need a variable called size
      * Again, we use private as we don't want that size variable
      * to be accessed by the methods that are outside of the List class.
-     * 
      */
 
     // declare a private int size
@@ -125,9 +124,9 @@ private int size;
         // write the logic for remove here.
         // Think about what to do to the size variable.
         //System.out.println("index"+""+index +"len" + arr.length);
-        if(index > 0 && index < size){
+        if(index > 0 && index < size) {
             --size;
-            for(int i = index; i < size; i++){
+            for(int i = index; i < size; i++) {
             arr[i] = arr[i+1];
         }
         }
@@ -167,7 +166,7 @@ private int size;
      * System.out.println(l);
      * This statement is a shortcut for
      * System.out.println(l.toString());
-     * 
+     *
      * So, implement the toString method to display the items
      * in the list in the square brackets notation.
      * i.e., if the list has numbers 1, 2, 3
@@ -181,13 +180,12 @@ private int size;
     public String toString() {
         // Replace the code below
         String res = "[";
-        for(int i =0; i< size-1; i++){
-            res =res+arr[i] +",";
+        for(int i =0; i < size - 1; i++){
+            res =res + arr[i] +",";
         }
-        res = res+arr[size-1] + "]";
+        res = res + arr[size - 1] + "]";
         return res;
     } 
-    
     /*
      * Contains return true if the list has
      * the item passed as an argument to the method
@@ -203,7 +201,6 @@ private int size;
         }
         return false;
     }
-
     /*
      * Returns the index of the first occurrence 
      * of the specified element in this list,
@@ -261,7 +258,7 @@ private int size;
                 System.out.println(l.indexOf(Integer.parseInt(tokens[1])));
                 break;
                 case "get":
-                if (l.get(Integer.parseInt(tokens[1])) != -1){
+                if (l.get(Integer.parseInt(tokens[1])) != -1) {
                      System.out.println(l.get(Integer.parseInt(tokens[1])));
                      break;
                 }
