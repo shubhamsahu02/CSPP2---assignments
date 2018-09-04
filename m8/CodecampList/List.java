@@ -32,7 +32,7 @@ public class List {
     // don't create the array yet using new
     // that's the job of the List constructor
     /**
-     * 
+     *
      */
     private int[] arr;
     /*
@@ -58,7 +58,7 @@ public class List {
     // again, don't initialize it here
     // variable initialization should be done in the constructor
 /**
- * 
+ *
  */
 private int size;
     /*
@@ -100,10 +100,10 @@ private int size;
     /**
      * @brief [brief description].
      * @details [long description].
-     * 
+     *
      * @param item [description].
      */
-    public void add(int item) {
+    public void add(final int item) {
         //Inserts the specified element at the end of the list.
         arr[size++] = item;
     }
@@ -112,7 +112,7 @@ private int size;
      * The size method returns the value of the size.
      * The purpose of the method is to announce the size of the list
      * to the objects outside the list
-     * 
+     *
      * The method returns an int. Empty list should return 0.
      */
     /**
@@ -148,10 +148,10 @@ private int size;
     /**
      * @brief [brief description].
      * @details [long description].
-     * 
+     *
      * @param index [description].
      */
-    public void remove(int index) {
+    public void remove(final int index) {
         // write the logic for remove here.
         // Think about what to do to the size variable.
         //System.out.println("index"+""+index +"len" + arr.length);
@@ -159,8 +159,8 @@ private int size;
             --size;
             for (int i = index; i < size; i++) {
             arr[i] = arr[i + 1];
+            }
         }
-    }
         else {
             System.out.println("Invalid Position Exception");
         }
@@ -175,17 +175,17 @@ private int size;
      * How can an element not be there at a given position?
      * Well, if the position is greater than the number of items
      * in the list then that would mean the item doesn't exist.
-     * How do we check if the position is greater than the 
+     * How do we check if the position is greater than the
      * number of items in the list? Would size variable be useful?
      */
     /**
      * @brief [brief description].
      * @details [long description].
-     * 
+     *
      * @param index [description].
      * @return [description].
      */
-    public int get(int index) {
+    public int get(final int index) {
         // Replace the code below to write the code for get
         if (index < size) {
             return arr[index];
@@ -237,11 +237,11 @@ private int size;
     /**
      * @brief [brief description].
      * @details [long description].
-     * 
+     *
      * @param item [description].
      * @return [description].
      */
-    public boolean contains(int item) {
+    public boolean contains(final int item) {
         // Replace the code below
         for (int ele : arr) {
             if (ele == item) {
@@ -280,10 +280,10 @@ private int size;
     /**
      * @brief [brief description].
      * @details [long description].
-     * 
+     *
      * @param args [description].
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         // create an object of the list to invoke methods on it
         List l = new List();
 
