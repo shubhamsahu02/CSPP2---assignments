@@ -1,6 +1,5 @@
 import java.io.BufferedInputStream;
 import java.util.Scanner;
-import java.util.*;
 /**
  *
  */
@@ -66,9 +65,6 @@ private int size;
      * class variables with some default values.
      */
     /**
-     * @brief [brief description].
-     * @details [long description].
-     * @return [description].
      */
     public List() {
 
@@ -161,10 +157,10 @@ private int size;
             for (int i = index; i < size; i++) {
             arr[i] = arr[i + 1];
             }
-        }
-        else {
+    } else {
             System.out.println("Invalid Position Exception");
         }
+
 
     }
 
