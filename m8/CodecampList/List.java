@@ -129,16 +129,15 @@ private int size;
         // write the logic for remove here.
         // Think about what to do to the size variable.
         //System.out.println("index"+""+index +"len" + arr.length);
-        if(index > 0 && index < size) {
+        if (index > 0 && index < size) {
             --size;
             for(int i = index; i < size; i++) {
             arr[i] = arr[i+1];
         }
         }
-        else{
+        else {
             System.out.println("Invalid Position Exception");
         }
-        
 
     }
 
@@ -277,4 +276,3 @@ private int size;
         }
     }
 }
-
