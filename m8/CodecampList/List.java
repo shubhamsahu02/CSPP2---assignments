@@ -2,8 +2,6 @@ import java.io.BufferedInputStream;
 import java.util.Scanner;
 import java.util.*;
 /**
- * @brief [brief description]
- * @details [long description]
  *
  */
 public class List {
@@ -76,7 +74,7 @@ private int size;
         arr = new int[10];
         size = 0;
     }
-    
+
     /*
      * The add method does what the name suggests.
      * Add an int item to the list.
@@ -85,7 +83,7 @@ private int size;
      * Is it the same as the end of the array?
      * Think about how you can use the size variable to add item
      * to the list.
-     * 
+     *
      * The method returns void (nothing)
      */
     public void add(int item) {
@@ -109,7 +107,7 @@ private int size;
      * The remove method does what the name suggests.
      * Removes an int item, specified by the index argument, from the list
      * It also does an additional step.
-     * Think about what happens when 
+     * Think about what happens when
      * an item is removed from the middle of the list
      * It creates a hole in the list, right?
      * This would mean, all the items that are
@@ -132,9 +130,9 @@ private int size;
         if (index > 0 && index < size) {
             --size;
             for (int i = index; i < size; i++) {
-            arr[i] = arr[i+1];
+            arr[i] = arr[i + 1];
         }
-        }
+    }
         else {
             System.out.println("Invalid Position Exception");
         }
@@ -209,6 +207,13 @@ private int size;
      * Returns the index of the first occurrence
      * of the specified element in this list,
      * or -1 if this list does not contain the element.
+     */
+    /**
+     * @brief [brief description]
+     * @details [long description]
+     *
+     * @param item [description]
+     * @return [description]
      */
     public int indexOf(int item) {
         // Replace the code below
