@@ -208,10 +208,14 @@ private int size;
      */
     public int indexOf(int item) {
         // Replace the code below
-        int i = -1;
-        for (int ele : arr) {
-            i++;
-            if (ele == item) {
+        // int i = -1;
+        // for (int ele : arr) {
+        //     i++;
+        //     if (ele == item) {
+        //         return i;
+        //     }
+        for (int i = 0; i < size; i++) {
+            if (arr[i] == item) {
                 return i;
             }
         }
@@ -254,12 +258,11 @@ private int size;
                 System.out.println(l.indexOf(Integer.parseInt(tokens[1])));
                 break;
                 case "get":
-                if(l.get(Integer.parseInt(tokens[1]))==-1){
-                    System.out.println("Index Out of Bounds Exception");
-                }else{
                 System.out.println(l.get(Integer.parseInt(tokens[1])));
+                    // System.out.println("Index Out of Bounds Exception");
+                // }else{
+                // System.out.println(l.get(Integer.parseInt(tokens[1])));
                 break;
-                }
                 case "contains":
                 System.out.println(l.contains(Integer.parseInt(tokens[1])));
                 break;
