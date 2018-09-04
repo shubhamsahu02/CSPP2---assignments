@@ -126,10 +126,10 @@ private int size;
         // Think about what to do to the size variable.
         //System.out.println("index"+""+index +"len" + arr.length);
         if(index > 0 && index < size){
-            for(int i = index-1; i < size; i++){
+            --size;
+            for(int i = index; i < size; i++){
             arr[i] = arr[i+1];
         }
-        --size;
         }
         else{
             System.out.println("Invalid Position Exception");
@@ -151,8 +151,11 @@ private int size;
      */
     public int get(int index) {
         // Replace the code below to write the code for get
-        if(index < size) return arr[index];
+        if(index < size) {
+            return arr[index];
+        } else {
         return -1;
+        }
     }
 
     /*
