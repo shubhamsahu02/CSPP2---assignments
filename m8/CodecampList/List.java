@@ -31,6 +31,9 @@ public class List {
     // declare a private int[]
     // don't create the array yet using new
     // that's the job of the List constructor
+    /**
+     * 
+     */
     private int[] arr;
     /*
      * What are the other class variables needed for creating a list?
@@ -54,10 +57,18 @@ public class List {
     // declare a private int size
     // again, don't initialize it here
     // variable initialization should be done in the constructor
+/**
+ * 
+ */
 private int size;
     /*
      * The purpose of the constructor is to initialize the
      * class variables with some default values.
+     */
+    /**
+     * @brief [brief description].
+     * @details [long description].
+     * @return [description].
      */
     public List() {
 
@@ -86,6 +97,12 @@ private int size;
      *
      * The method returns void (nothing)
      */
+    /**
+     * @brief [brief description].
+     * @details [long description].
+     * 
+     * @param item [description].
+     */
     public void add(int item) {
         //Inserts the specified element at the end of the list.
         arr[size++] = item;
@@ -97,6 +114,11 @@ private int size;
      * to the objects outside the list
      * 
      * The method returns an int. Empty list should return 0.
+     */
+    /**
+     * @brief [brief description].
+     * @details [long description].
+     * @return [description].
      */
     public int size() {
         // replace the code below to implement the size method
@@ -122,6 +144,12 @@ private int size;
      * So, the new array looks like this.
      * array = [1,3,0,0,0,0,0,0,0,0]
      * The method returns void (nothing)
+     */
+    /**
+     * @brief [brief description].
+     * @details [long description].
+     * 
+     * @param index [description].
      */
     public void remove(int index) {
         // write the logic for remove here.
@@ -149,6 +177,13 @@ private int size;
      * in the list then that would mean the item doesn't exist.
      * How do we check if the position is greater than the 
      * number of items in the list? Would size variable be useful?
+     */
+    /**
+     * @brief [brief description].
+     * @details [long description].
+     * 
+     * @param index [description].
+     * @return [description].
      */
     public int get(int index) {
         // Replace the code below to write the code for get
@@ -179,6 +214,11 @@ private int size;
      * not all the elements of the array.
      *
      */
+     /**
+      * @brief [brief description].
+      * @details [long description].
+      * @return [description].
+      */
     public String toString() {
         // Replace the code below
         String res = "[";
@@ -193,6 +233,13 @@ private int size;
      * the item passed as an argument to the method
      * So, iterate through the list and return true if
      * the item exists and otherwise false
+     */
+    /**
+     * @brief [brief description].
+     * @details [long description].
+     * 
+     * @param item [description].
+     * @return [description].
      */
     public boolean contains(int item) {
         // Replace the code below
@@ -215,7 +262,7 @@ private int size;
      * @param item [description]
      * @return [description]
      */
-    public int indexOf(int item) {
+    public int indexOf(final int item) {
         // Replace the code below
         // int i = -1;
         // for (int ele : arr) {
@@ -230,7 +277,12 @@ private int size;
         }
         return -1;
     }
-
+    /**
+     * @brief [brief description].
+     * @details [long description].
+     * 
+     * @param args [description].
+     */
     public static void main(String[] args) {
         // create an object of the list to invoke methods on it
         List l = new List();
