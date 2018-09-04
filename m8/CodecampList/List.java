@@ -1,6 +1,11 @@
 import java.io.BufferedInputStream;
 import java.util.Scanner;
 import java.util.*;
+/**
+ * @brief [brief description]
+ * @details [long description]
+ *
+ */
 public class List {
     //Implement all the methods mentioned to build a ListADT
 
@@ -180,12 +185,12 @@ private int size;
     public String toString() {
         // Replace the code below
         String res = "[";
-        for(int i =0; i < size - 1; i++){
-            res =res + arr[i] +",";
+        for (int i = 0; i < size - 1; i++) {
+            res = res + arr[i] +",";
         }
         res = res + arr[size - 1] + "]";
         return res;
-    } 
+    }
     /*
      * Contains return true if the list has
      * the item passed as an argument to the method
@@ -202,7 +207,7 @@ private int size;
         return false;
     }
     /*
-     * Returns the index of the first occurrence 
+     * Returns the index of the first occurrence
      * of the specified element in this list,
      * or -1 if this list does not contain the element.
      */
