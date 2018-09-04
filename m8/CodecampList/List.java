@@ -131,7 +131,7 @@ private int size;
         //System.out.println("index"+""+index +"len" + arr.length);
         if (index > 0 && index < size) {
             --size;
-            for(int i = index; i < size; i++) {
+            for (int i = index; i < size; i++) {
             arr[i] = arr[i+1];
         }
         }
@@ -185,7 +185,7 @@ private int size;
         // Replace the code below
         String res = "[";
         for (int i = 0; i < size - 1; i++) {
-            res = res + arr[i] +",";
+            res = res + arr[i] + ",";
         }
         res = res + arr[size - 1] + "]";
         return res;
@@ -198,8 +198,8 @@ private int size;
      */
     public boolean contains(int item) {
         // Replace the code below
-        for (int ele : arr){
-            if (ele == item){
+        for (int ele : arr) {
+            if (ele == item) {
                 return true;
             }
         }
