@@ -208,8 +208,8 @@ private int size;
      */
     public int indexOf(int item) {
         // Replace the code below
-        int i =-1;
-         for (int ele : arr) {
+        int i =0;
+        for (int ele : arr) {
             i++;
             if (ele == item) {
                 return i;
