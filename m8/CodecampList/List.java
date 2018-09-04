@@ -65,11 +65,6 @@ private int size;
      * The purpose of the constructor is to initialize the
      * class variables with some default values.
      */
-    /**
-     * @brief [brief description].
-     * @details [long description].
-     * @return [description].
-     */
     public List() {
 
         // what are the two variables to be initialized here?
@@ -82,9 +77,10 @@ private int size;
         // How many items do we have in the list when you create it?
         // An empty list has how many items?
         // That is the initial value to use for size.
-        arr = new int[10];
+        final int a = 10;
+        arr = new int[a];
         size = 0;
-    }
+        }
 
     /*
      * The add method does what the name suggests.
