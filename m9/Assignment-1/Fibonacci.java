@@ -18,8 +18,6 @@ import java.util.Scanner;
  */
 
 /**
- * @brief [brief description]
- * @details [long description]
  *
  */
 final class Fibonacci {
