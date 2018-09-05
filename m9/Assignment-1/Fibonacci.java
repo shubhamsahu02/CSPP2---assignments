@@ -32,8 +32,7 @@ final class Fibonacci {
 /**
  * @brief [brief description]
  * @details [long description]
- * @return [description]
- */
+*/
     private Fibonacci() {
 
     }
@@ -42,7 +41,7 @@ final class Fibonacci {
  * @brief [brief description]
  * @details [long description]
  *
- * @param int [description]
+ * @param n [description]
  * @return [description]
  */
     public static List fib(final int n) {
@@ -74,7 +73,7 @@ final class Fibonacci {
  * @brief [brief description]
  * @details [long description]
  * 
- * @param String [description]
+ * @param args [description]
  */
     public static void main(final String[] args) {
         Scanner s = new Scanner(System.in);
