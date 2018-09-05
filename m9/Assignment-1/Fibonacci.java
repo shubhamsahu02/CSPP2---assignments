@@ -38,6 +38,13 @@ final class Fibonacci {
 
     }
 
+/**
+ * @brief [brief description]
+ * @details [long description]
+ *
+ * @param int [description]
+ * @return [description]
+ */
     public static List fib(final int n) {
         int a = 0, b = 1, c;
         final int d = 3;
