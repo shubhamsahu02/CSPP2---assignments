@@ -72,7 +72,6 @@ final class Fibonacci {
 /**
  * @brief [brief description]
  * @details [long description]
- * 
  * @param args [description]
  */
     public static void main(final String[] args) {
@@ -81,3 +80,4 @@ final class Fibonacci {
         System.out.println(fib(n));
     }
 }
+
