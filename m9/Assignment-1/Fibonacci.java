@@ -73,7 +73,7 @@ final class Fibonacci {
 /**
  * @brief [brief description]
  * @details [long description]
- *
+ * 
  * @param String [description]
  */
     public static void main(final String[] args) {
