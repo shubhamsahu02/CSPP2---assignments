@@ -29,6 +29,11 @@ final class Fibonacci {
      * Look for the hint.txt if some of the testcases fail.
      */
 
+/**
+ * @brief [brief description]
+ * @details [long description]
+ * @return [description]
+ */
     private Fibonacci() {
 
     }
