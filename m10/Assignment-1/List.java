@@ -1,10 +1,9 @@
 import java.io.BufferedInputStream;
 import java.util.Scanner;
-
+/**
+ class.
+ **/
 public class List {
-    /**
-     *this
-     */
     //Implement all the methods mentioned to build a ListADT
 
     /*
@@ -31,7 +30,9 @@ public class List {
     // declare a private int[]
     // don't create the array yet using new
     // that's the job of the List constructor
-
+    /**
+     * int array.
+     */
     private int[] list;
 
     /*
@@ -64,7 +65,9 @@ public class List {
      * The purpose of the constructor is to initialize the
      * class variables with some default values.
      */
-
+/**
+ * constructor.
+ **/
     public List() {
 
         // what are the two variables to be initialized here?
@@ -95,6 +98,9 @@ public class List {
      * a list capacity of n items where n is given as an argument to
      * constructor.
      */
+    /**
+     * @param capacity int.
+     */
     public List(final int capacity) {
         size = 0;
         list = new int[capacity];
@@ -109,7 +115,9 @@ public class List {
      * to the list.
      * The method returns void (nothing)
      */
-
+    /**
+    * @param item int.
+     */
     public void add(final int item) {
         //Inserts the specified element at the end of the zelist.
         list[size++] = item;
@@ -153,7 +161,9 @@ public class List {
      * to the objects outside the list
      * The method returns an int. Empty list should return 0.
      */
-
+    /**
+     * @return size.
+     **/
     public int size() {
         return size;
     }
@@ -178,7 +188,9 @@ public class List {
      * array = [1,3,0,0,0,0,0,0,0,0]
      * The method returns void (nothing)
      */
-
+/**
+ * @param index int.
+ */
     public void remove(final int index) {
         // write the logic for remove here.
         // Think about what to do to the size variable.
@@ -203,7 +215,10 @@ public class List {
      * How do we check if the position is greater than the
      * number of items in the list? Would size variable be useful?
      */
-
+    /**
+     * @param index int.
+     * @return list.
+     **/
     public int get(final int index) {
         if (index < 0 || index >= size) {
             return -1;
@@ -253,7 +268,10 @@ public class List {
      * So, iterate through the list and return true if
      * the item exists and otherwise false
      */
-
+    /**
+     * @param item int.
+     * @return true or false.
+     */
     public boolean contains(final int item) {
         return indexOf(item) == -1;
     }
@@ -277,7 +295,9 @@ public class List {
     }
    /*Inserts all the elements of specified int
     array to the end of list*/
-
+    /**
+     * @param items int.
+     **/
     public void addAll(final int[] items) {
         // write the logic
         int len = items.length + size;
@@ -293,7 +313,10 @@ public class List {
     by moving all the elements to the right.
         The method returns void (nothing)
      */
-
+        /**
+         * @param index int index.
+         * @param item int.
+         */
     public void add(final int index, final int item) {
          // write the logic
         for (int i = size; i > index; i--) {
@@ -304,7 +327,10 @@ public class List {
 
     }
 /* Returns the count of occurances of a given item in the list*/
-
+    /**
+     * @param item int.
+     * @return count.
+     **/
     public int count(final int item) {
          // write the logic
         int count = 0;
@@ -316,7 +342,9 @@ public class List {
         return count;
     }
 
-
+/**
+ * @param args string.
+ **/
     public static void main(final String[] args) {
         // create an object of the list to invoke methods on it
         List l = new List();
