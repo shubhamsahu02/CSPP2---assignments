@@ -19,12 +19,12 @@ class Student {
 /**.
  * @param nam [description]
  */
-    Student(String nam) {
+    Student(final String nam) {
     //A constructor used to initialize the instance variables
         this.name = nam;
     }
 /**.
-* name.
+* @return name.
 **/
     public String getName() {
     //Getter method which returns the value of instance variable
@@ -46,7 +46,7 @@ class Student {
         return 0;
     }
 /**.
-* name
+* @return name.
 */
     public String toString() {
         return this.name;
@@ -57,13 +57,13 @@ class Student {
 **/
 final class Solution {
     /**.
-     * @return nothing.
+     * nothing.
      */
     private Solution() {
 
     }
 /**
-*
+* @param args.
 **/
     public static void main(final String[] args) {
         // create an object of the list to invoke methods on it
