@@ -91,13 +91,13 @@ public class List {
      * The overloaded constructor is a way to initialize a list with
      * a list capacity of n items where n is given as an argument to
      * constructor.
-     * 
+     *
      */
     public List(int capacity) {
         size = 0;
         list = new int[capacity];
     }
-    
+
     /*
      * The add method does what the name suggests.
      * Add an int item to the list.
@@ -275,7 +275,6 @@ public class List {
     for ( int i = size; i < length; i++) {
         list[i] = items[temp];
         temp++;
-
     }
 size = length;
 
@@ -296,7 +295,6 @@ size = length;
     size++;
     }
 
-    
     /* Returns the count of occurances of a given item in the list*/
     public int count(int item)
     {
