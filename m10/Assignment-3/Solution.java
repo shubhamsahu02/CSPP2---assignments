@@ -38,18 +38,24 @@ class Student {
         return 0;
     }
 
+    
     public String toString() {
         return this.name;
     }
 }
 
-class Solution {
+final class Solution {
 
+    /**
+     * @brief [brief description]
+     * @details [long description]
+     * @return [description]
+     */
     private Solution() {
 
     }
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         // create an object of the list to invoke methods on it
         /**
          * @brief [brief description]
