@@ -41,18 +41,30 @@ public class List<E> {
         if (size >= list.length) {
             resize();
         }
+        /**
+         *
+         */
         list[(size++)] = item;
     }
+    /**
+     * @brief [brief description]
+     * @details [long description]
+     *
+     * @param items [description]
+     */
     /*Inserts all the elements of specified int 
     array to the end of list*/
-    public void addAll(E[] items) {
+    final public void addAll(E[] items) {
+        /**
+         *This is a comment
+         */
         //Write logic for addAll method
         for (E eachElem: items) {
             add(eachElem);
         }
     }
     /**
-     * Resize methodss
+     * Resize methods
      */
     private void resize() {
         list = Arrays.copyOf(list, 2 * list.length);
