@@ -6,18 +6,24 @@ import java.util.Scanner;
  * @return [description]
  */
 class Student {
-
+/**
+*
+**/
     private Student() {
 
     }
-
+/**
+*
+**/
     private String name;
 
     Student(String nam) {
     //A constructor used to initialize the instance variables
         this.name = nam;
     }
-
+/**
+*
+**/
     public String getName() {
     //Getter method which returns the value of instance variable
         return this.name;
