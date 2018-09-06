@@ -2,7 +2,7 @@ import java.io.BufferedInputStream;
 import java.util.Scanner;
 
 /**
- * @brief [brief description]
+ *
  */
 final class Solution {
 
