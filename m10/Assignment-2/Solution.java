@@ -13,7 +13,7 @@ This is a comment.
 
     }
     /**
-     * @param args
+     * @param args [this]
      */
     public static void main(final String[] args) {
         // create an object of the list to invoke methods on it
