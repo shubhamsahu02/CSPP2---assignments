@@ -3,8 +3,6 @@ import java.util.Scanner;
 //A Class is implemented for Student details
 
 /**
- * @brief [brief description]
- * @details [long description]
  * @return [description]
  */
 class Student {
@@ -53,6 +51,13 @@ class Solution {
 
     public static void main(String[] args) {
         // create an object of the list to invoke methods on it
+        /**
+         * @brief [brief description]
+         * @details [long description]
+         *
+         * @param BufferedInputStreamSystem [description]
+         * @return [description]
+         */
         Scanner stdin = new Scanner(new BufferedInputStream(System.in));
         String objectType = stdin.nextLine();
 
