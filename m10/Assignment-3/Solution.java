@@ -16,13 +16,15 @@ class Student {
 *
 **/
     private String name;
-
+/**.
+ * @param nam [description]
+ */
     Student(String nam) {
     //A constructor used to initialize the instance variables
         this.name = nam;
     }
-/**
-*
+/**.
+* name.
 **/
     public String getName() {
     //Getter method which returns the value of instance variable
@@ -30,7 +32,7 @@ class Student {
     }
 
     @Override
-    public boolean equals(Object other) {
+    public boolean equals(final Object other) {
     //This method is to check if two students names are equal or not
         if (!(other instanceof Student)) {
             return false;
@@ -43,24 +45,26 @@ class Student {
     public int hashCode() {
         return 0;
     }
-
-    
+/**.
+* name
+*/
     public String toString() {
         return this.name;
     }
 }
-
+/**
+*
+**/
 final class Solution {
-
-    /**
-     * @brief [brief description]
-     * @details [long description]
-     * @return [description]
+    /**.
+     * @return nothing.
      */
     private Solution() {
 
     }
-
+/**
+*
+**/
     public static void main(final String[] args) {
         // create an object of the list to invoke methods on it
         /**
