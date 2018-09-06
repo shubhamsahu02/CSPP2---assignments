@@ -2,16 +2,19 @@ import java.io.BufferedInputStream;
 import java.util.Scanner;
 
 /**
- *
+ *.
  */
 final class Solution {
 
 /**
-This is a comment
+This is a comment.
  */   
     private Solution() {
 
     }
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         // create an object of the list to invoke methods on it
         StringList sl = new StringList();
