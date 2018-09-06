@@ -6,6 +6,9 @@ import java.util.Scanner;
  */
 final class Solution {
 
+/**
+This is a comment
+ */   
     private Solution() {
 
     }
