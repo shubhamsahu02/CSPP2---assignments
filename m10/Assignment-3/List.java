@@ -2,7 +2,8 @@ import java.io.BufferedInputStream;
 import java.io.PrintStream;
 import java.util.Arrays;
 import java.util.Scanner;
-//This is a comment
+/**
+ *
 /*
      * The goal for the list is to store items.
      * How are we going to store the items in the list?
