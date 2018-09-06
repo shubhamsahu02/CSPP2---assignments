@@ -2,8 +2,7 @@ import java.io.BufferedInputStream;
 import java.io.PrintStream;
 import java.util.Arrays;
 import java.util.Scanner;
-/**
- *
+
 /*
      * The goal for the list is to store items.
      * How are we going to store the items in the list?
@@ -41,30 +40,18 @@ public class List<E> {
         if (size >= list.length) {
             resize();
         }
-        /**
-         *
-         */
         list[(size++)] = item;
     }
-    /**
-     * @brief [brief description]
-     * @details [long description]
-     *
-     * @param items [description]
-     */
     /*Inserts all the elements of specified int 
     array to the end of list*/
-    final public void addAll(E[] items) {
-        /**
-         *This is a comment
-         */
+    public void addAll(E[] items) {
         //Write logic for addAll method
         for (E eachElem: items) {
             add(eachElem);
         }
     }
     /**
-     * Resize methods
+     * Resize methodss
      */
     private void resize() {
         list = Arrays.copyOf(list, 2 * list.length);

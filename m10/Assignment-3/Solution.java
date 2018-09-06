@@ -2,6 +2,11 @@ import java.io.BufferedInputStream;
 import java.util.Scanner;
 //A Class is implemented for Student details
 
+/**
+ * @brief [brief description]
+ * @details [long description]
+ * @return [description]
+ */
 class Student {
 
     private Student() {
