@@ -1,7 +1,7 @@
 import java.io.BufferedInputStream;
 import java.util.Scanner;
 
-class Solution {
+final class Solution {
 
     private Solution() {
 
