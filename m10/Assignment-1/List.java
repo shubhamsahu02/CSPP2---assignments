@@ -2,6 +2,9 @@ import java.io.BufferedInputStream;
 import java.util.Scanner;
 
 public class List {
+    /**
+     *this
+     */
     //Implement all the methods mentioned to build a ListADT
 
     /*
