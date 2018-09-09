@@ -110,11 +110,10 @@ public class List {
    */
 
 /**
- * @brief [brief description]
- * @details [long description]
- *
- * @param int [description]
- */
+  * @param item
+   *
+   * @return
+   */
   public void add(final int item) {
     //Inserts the specified element at the end of the list.
     if (list.length == size) {
