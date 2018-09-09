@@ -85,7 +85,7 @@ public class List {
     // An empty list has how many items?
     // That is the initial value to use for size.
 
-    int max = 10;
+    final int max = 10;
     list = new int[max];
     size = 0;
   }
@@ -341,7 +341,7 @@ public class List {
  */
   public List subList(final int start, final int end) {
     // write the logic for subList
-    int optSize = 500;
+    final int optSize = 500;
     List subList = new List(optSize);
     if (start < size && end <= size && start <= end && start > 0 && end > 0) {
       for (int i = start; i < end; i++) {
