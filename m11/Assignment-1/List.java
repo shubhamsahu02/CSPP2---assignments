@@ -246,7 +246,7 @@ public class List {
 
   /**
    * @param newArray array
-   * @return .
+   * @return array
    */
   public void addAll(final int[] newArray) {
     // write the logic
