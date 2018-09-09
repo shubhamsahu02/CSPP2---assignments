@@ -2,7 +2,7 @@ import java.io.BufferedInputStream;
 import java.util.Scanner;
 import java.util.Arrays;
 
-/**
+/**.
  *This
  */
 public class List {
@@ -33,7 +33,9 @@ public class List {
   // declare a private int[]
   // don't create the array yet using new
   // that's the job of the List constructor
-
+/**
+ *int
+ */
   private int[] list;
   /*
    * What are the other class variables needed for creating a list?
@@ -68,6 +70,9 @@ public class List {
    * some default values.
    */
 
+/**
+ *List
+ */
   public List() {
 
     // what are the two variables to be initialized here? think about the
