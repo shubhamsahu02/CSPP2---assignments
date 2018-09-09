@@ -320,11 +320,8 @@ public class List {
 *compList
 */
 /**
- * @brief [brief description]
- * @details [long description]
- *
- * @param List [description]
- * @return [description]
+ * @param compList Component list
+ * @return 
  */
   public boolean equals(final List compList) {
     // Replace the code below
