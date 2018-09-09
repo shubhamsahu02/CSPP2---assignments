@@ -253,8 +253,7 @@ public class List {
 
 
   /**
-   * @param t [description]
-   * @return [description]
+   * @param item Item
    */
   public int count(final int item) {
     // write the logic
