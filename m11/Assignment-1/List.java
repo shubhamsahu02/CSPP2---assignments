@@ -157,7 +157,9 @@ public class List {
    *
    */
 
-  public void remove(final int index) {
+  /**
+   * @param index index
+   */public void remove(final int index) {
     // write the logic for remove here. Think about what to do to the size
     // variable.
     if (index >= 0 && index < size) {
