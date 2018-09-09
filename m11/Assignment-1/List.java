@@ -125,6 +125,11 @@ public class List {
   }
 
 
+/**
+ * @brief [brief description]
+ * @details [long description]
+ * @return [description]
+ */
   public int[] resize() {
     return Arrays.copyOf(list, 2 * list.length);
   }
@@ -288,9 +293,9 @@ public class List {
 /**
  * @brief [brief description]
  * @details [long description]
- * 
- * @param int [description]
- * @param int [description]
+ *
+ * @param start
+ * @param end
  */
   public List subList(final int start, final int end) {
     // write the logic for subList
