@@ -300,7 +300,7 @@ public class List {
  * @param  start The start
  *
  * @param  end   The end
- * @return
+ * @return the
  */
   public List subList(final int start, final int end) {
     // write the logic for subList
