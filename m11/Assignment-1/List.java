@@ -138,6 +138,11 @@ public class List {
    *
    */
 
+/**
+ * @brief [brief description]
+ * @details [long description]
+ * @return [description]
+ */
   public int size() {
     return size;
   }
@@ -159,7 +164,8 @@ public class List {
 
   /**
    * @param index index
-   */public void remove(final int index) {
+   */
+  public void remove(final int index) {
     // write the logic for remove here. Think about what to do to the size
     // variable.
     if (index >= 0 && index < size) {
