@@ -279,6 +279,13 @@ public class List {
   and also if start is greater than end.
   */
 
+/**
+ * @brief [brief description]
+ * @details [long description]
+ * 
+ * @param int [description]
+ * @param int [description]
+ */
   public List subList(final int start, final int end) {
     // write the logic for subList
     int optSize = 500;
@@ -299,7 +306,10 @@ public class List {
   exactly matching with the given list or not.
   */
 
-  public boolean equals(List compList) {
+/*
+*compList
+*/
+  public boolean equals(final List compList) {
     // Replace the code below
     if (size != compList.size()) {
       return false;
@@ -333,8 +343,6 @@ public class List {
   /**
    * @brief [brief description]
    * @details [long description]
-   *
-   * @param String [description]
    */
   public static void main(final String[] args) {
     // create an object of the list to invoke methods on it
