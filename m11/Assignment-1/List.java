@@ -244,6 +244,14 @@ public class List {
   Inserts all the elements of specified int array to the end of list
   */
 
+  
+  /**
+   * @brief [brief description]
+   * @details [long description]
+   *
+   * @param  [description]
+   * @return [description]
+   */
   public void addAll(final int[] newArray) {
     // write the logic
     for (int i = 0; i < newArray.length; i++) {
