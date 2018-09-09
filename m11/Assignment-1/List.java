@@ -321,7 +321,7 @@ public class List {
 */
 /**
  * @param compList Component list
- * @return 
+ * @return true or false
  */
   public boolean equals(final List compList) {
     // Replace the code below
