@@ -12,6 +12,12 @@ class Student {
   private String name;
 
 
+  /**
+   * @brief [brief description]
+   * @details [long description]
+   *
+   * @param String [description]
+   */
   Student(final String nm) {
     //A constructor used to initialize the instance variables
     this.name = nm;
