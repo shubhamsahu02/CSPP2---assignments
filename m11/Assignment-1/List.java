@@ -252,6 +252,10 @@ public class List {
   }
 
 
+  /**
+   * @param t [description]
+   * @return [description]
+   */
   public int count(final int item) {
     // write the logic
     int c = 0;
