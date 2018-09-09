@@ -157,6 +157,9 @@ public final class Solution {
     }
   }
 
+  /**
+   * @param stdin  stdin
+   */
   public static void executeListDouble(final Scanner stdin) {
     List<Double> l = new List();
     while (stdin.hasNext()) {
