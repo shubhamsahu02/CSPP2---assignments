@@ -95,7 +95,7 @@ public class List {
  * @brief [brief description]
  * @details [long description]
  */
-  public List(int capacity) {
+  public List(final int capacity) {
     list = new int[capacity];
     size = 0;
   }
@@ -149,8 +149,8 @@ public class List {
    * [1,3,0,0,0,0,0,0,0,0] The method returns void (nothing)
    *
    */
-  
-  public void remove(int index) {
+
+  public void remove(final int index) {
     // write the logic for remove here. Think about what to do to the size
     // variable.
     if (index >= 0 && index < size) {
@@ -173,7 +173,7 @@ public class List {
    * items in the list? Would size variable be useful?
    */
 
-  public int get(int index) {
+  public int get(final int index) {
     // Replace the code below to write the code for get
     if (index < 0 || index >= size) {
       return -1;
@@ -215,7 +215,7 @@ public class List {
    * exists and otherwise false
    */
 
-  public boolean contains(int item) {
+  public boolean contains(final int item) {
     // Replace the code below
     return indexOf(item) != -1;
   }
@@ -224,7 +224,7 @@ public class List {
    * this list, or -1 if this list does not contain the element.
    */
 
-  public int indexOf(int item) {
+  public int indexOf(final int item) {
     // Replace the code below
     for (int i = 0; i < size; i++) {
       if (item == list[i]) {
@@ -245,7 +245,7 @@ public class List {
   }
 
 
-  public int count(int item) {
+  public int count(final int item) {
     // write the logic
     int c = 0;
     for (int i = 0; i < size; i++) {
@@ -261,7 +261,7 @@ public class List {
    array.
   */
 
-  public void removeAll(int[] newArray) {
+  public void removeAll(final int[] newArray) {
     // write the logic
     for (int i = 0; i < newArray.length; i++) {
       for (int j = 0; j <= count(newArray[i]); j++) {
@@ -279,7 +279,7 @@ public class List {
   and also if start is greater than end.
   */
 
-  public List subList(int start, int end) {
+  public List subList(final int start, int end) {
     // write the logic for subList
     int optSize = 500;
     List subList = new List(optSize);
@@ -326,7 +326,7 @@ public class List {
     size = 0;
   }
 
-  public static void main(String[] args) {
+  public static void main(final String[] args) {
     // create an object of the list to invoke methods on it
     List l = new List();
 
