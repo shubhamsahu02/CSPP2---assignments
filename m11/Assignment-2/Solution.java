@@ -430,7 +430,7 @@ public final class Solution {
   }
 
   /**
-   * @param Stdin stdin
+   * @param  stdin stdin
    */
   public static void executeListStudent(final Scanner stdin) {
     List<Student> l = new List();
