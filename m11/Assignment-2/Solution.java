@@ -14,6 +14,7 @@ class Student {
 
   /**
    * @brief [brief description]
+   *@param nm nm
    */
   Student(final String nm) {
     //A constructor used to initialize the instance variables
