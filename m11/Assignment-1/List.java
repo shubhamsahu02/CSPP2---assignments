@@ -212,7 +212,6 @@ public class List {
 /**
  * @brief [brief description]
  * @details [long descriptio]
- * @param toString string
  * @return string
  */
   public String toString() {
