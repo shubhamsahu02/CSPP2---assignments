@@ -92,8 +92,7 @@ public class List {
 
 
 /**
- * @brief [brief description]
- * @details [long description]
+ *@param      capacity  The capacity
  */
   public List(final int capacity) {
     list = new int[capacity];
@@ -359,7 +358,7 @@ public class List {
   }
 
   /**
-   *@param  args   
+   *@param  args
    **/
   public static void main(final String[] args) {
     // create an object of the list to invoke methods on it
