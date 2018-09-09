@@ -109,9 +109,7 @@ public class List {
    */
 
 /**
-  * @param item
-   *
-   * @return
+  * @param item item
    */
   public void add(final int item) {
     //Inserts the specified element at the end of the list.
