@@ -109,7 +109,13 @@ public class List {
    * The method returns void (nothing)
    */
 
-  public void add(int item) {
+/**
+ * @brief [brief description]
+ * @details [long description]
+ *
+ * @param int [description]
+ */
+  public void add(final int item) {
     //Inserts the specified element at the end of the list.
     if (list.length == size) {
       list = resize();
