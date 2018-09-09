@@ -344,6 +344,9 @@ public final class Solution {
     }
   }
 
+  /**
+   * @param stdin  stdin
+   */
   public static void executeListString(final Scanner stdin) {
     List<String> l = new List();
     while (stdin.hasNext()) {
