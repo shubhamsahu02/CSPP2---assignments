@@ -231,6 +231,12 @@ public class List {
    * this list, or -1 if this list does not contain the element.
    */
 
+  /**
+   * @brief [brief description]
+   * @details [long description]
+   * @param item item
+   * @return item
+   */
   public int indexOf(final int item) {
     // Replace the code below
     for (int i = 0; i < size; i++) {
