@@ -246,11 +246,8 @@ public class List {
 
   
   /**
-   * @brief [brief description]
-   * @details [long description]
-   *
-   * @param  [description]
-   * @return [description]
+   * @param newArray array
+   * @return .
    */
   public void addAll(final int[] newArray) {
     // write the logic
