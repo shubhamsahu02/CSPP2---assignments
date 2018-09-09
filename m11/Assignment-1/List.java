@@ -294,7 +294,7 @@ public class List {
       return false;
     } else {
       for (int i = 0; i < size; i++) {
-        if (list[i] != get(i)) {
+        if (list[i] != compList.get(i)) {
           return false;
         }
       }
