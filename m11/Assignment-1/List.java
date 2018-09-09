@@ -271,16 +271,16 @@ public class List {
   public List subList(int start, int end) {
     // write the logic for subList
     int optSize = 500;
-    List sL = new List(optSize);
+    List subList = new List(optSize);
     if (start < size && end <= size && start <= end && start > 0 && end > 0) {
       for (int i = start; i < end; i++) {
-        sL.add(list[i]);
+        subList.add(list[i]);
       }
     } else {
       System.out.println("Index Out of Bounds Exception");
       return null;
     }
-    return sL;
+    return subList;
   }
 
   /*
@@ -294,7 +294,7 @@ public class List {
       return false;
     } else {
       for (int i = 0; i < size; i++) {
-        if (list[i] != compList.get(i)) {
+        if (list[i] != get(i)) {
           return false;
         }
       }
