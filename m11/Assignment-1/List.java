@@ -94,9 +94,6 @@ public class List {
 /**
  * @brief [brief description]
  * @details [long description]
- *
- * @param capacity [description]
- * @return [description]
  */
   public List(int capacity) {
     list = new int[capacity];
