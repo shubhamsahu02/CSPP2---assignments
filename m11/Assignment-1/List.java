@@ -33,7 +33,7 @@ public class List {
   // declare a private int[]
   // don't create the array yet using new
   // that's the job of the List constructor
-/**
+/**.
  *int
  */
   private int[] list;
@@ -70,7 +70,7 @@ public class List {
    * some default values.
    */
 
-/**
+/**.
  *List
  */
   public List() {
@@ -91,6 +91,13 @@ public class List {
   }
 
 
+/**
+ * @brief [brief description]
+ * @details [long description]
+ *
+ * @param capacity [description]
+ * @return [description]
+ */
   public List(int capacity) {
     list = new int[capacity];
     size = 0;
