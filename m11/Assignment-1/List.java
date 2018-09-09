@@ -222,6 +222,12 @@ public class List {
    * exists and otherwise false
    */
 
+/**
+ * @brief [brief description]
+ * @details [long descriptio]
+ * @param item item
+ * @return item
+ */
   public boolean contains(final int item) {
     // Replace the code below
     return indexOf(item) != -1;
