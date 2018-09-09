@@ -293,8 +293,9 @@ public class List {
  * @brief [brief description]
  * @details [long description]
  *
- * @param start
- * @param end
+ * @param  start The start
+ *
+ * @param  end   The end
  */
   public List subList(final int start, final int end) {
     // write the logic for subList
@@ -319,6 +320,13 @@ public class List {
 /*
 *compList
 */
+/**
+ * @brief [brief description]
+ * @details [long description]
+ *
+ * @param List [description]
+ * @return [description]
+ */
   public boolean equals(final List compList) {
     // Replace the code below
     if (size != compList.size()) {
@@ -351,9 +359,8 @@ public class List {
   }
 
   /**
-   * @brief [brief description]
-   * @details [long description]
-   */
+   *@param  args   
+   **/
   public static void main(final String[] args) {
     // create an object of the list to invoke methods on it
     List l = new List();
