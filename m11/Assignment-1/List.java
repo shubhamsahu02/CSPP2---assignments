@@ -237,7 +237,7 @@ public class List {
   Inserts all the elements of specified int array to the end of list
   */
 
-  public void addAll(int[] newArray) {
+  public void addAll(final int[] newArray) {
     // write the logic
     for (int i = 0; i < newArray.length; i++) {
       add(newArray[i]);
@@ -279,7 +279,7 @@ public class List {
   and also if start is greater than end.
   */
 
-  public List subList(final int start,final int end) {
+  public List subList(final int start, final int end) {
     // write the logic for subList
     int optSize = 500;
     List subList = new List(optSize);
@@ -318,6 +318,10 @@ public class List {
   * the simpler.
   */
 
+/**
+ * @brief [brief description]
+ * @details [long description]
+ */
   public void clear() {
     // write the logic for clear.
     for (int i = 0; i < size; i++) {
@@ -326,6 +330,12 @@ public class List {
     size = 0;
   }
 
+  /**
+   * @brief [brief description]
+   * @details [long description]
+   *
+   * @param String [description]
+   */
   public static void main(final String[] args) {
     // create an object of the list to invoke methods on it
     List l = new List();
