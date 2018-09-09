@@ -63,6 +63,9 @@ public final class Solution {
   }
 
 
+  /**
+   * @param stdin  stdin
+   */
   public static void executeListInteger(final Scanner stdin) {
     List<Integer> l = new List();
     while (stdin.hasNext()) {
