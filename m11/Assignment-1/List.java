@@ -254,6 +254,8 @@ public class List {
 
   /**
    * @param item Item
+   * 
+   * @return
    */
   public int count(final int item) {
     // write the logic
