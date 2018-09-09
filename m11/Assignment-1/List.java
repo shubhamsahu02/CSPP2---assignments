@@ -270,6 +270,12 @@ public class List {
    array.
   */
 
+/**
+ * @brief [brief description]
+ * @details [long description]
+ *
+ * @param int [description]
+ */
   public void removeAll(final int[] newArray) {
     // write the logic
     for (int i = 0; i < newArray.length; i++) {
@@ -295,6 +301,7 @@ public class List {
  * @param  start The start
  *
  * @param  end   The end
+ * @return 
  */
   public List subList(final int start, final int end) {
     // write the logic for subList
