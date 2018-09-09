@@ -251,6 +251,9 @@ public final class Solution {
     }
   }
 
+  /**
+   * @param stdin  stdin
+   */
   public static void executeListFloat(final Scanner stdin) {
     List<Float> l = new List();
     while (stdin.hasNext()) {
