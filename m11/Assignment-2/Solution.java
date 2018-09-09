@@ -429,6 +429,12 @@ public final class Solution {
     }
   }
 
+  /**
+   * @brief [brief description]
+   * @details [long description]
+   *
+   * @param Stdin [description]
+   */
   public static void executeListStudent(final Scanner stdin) {
     List<Student> l = new List();
     while (stdin.hasNext()) {
