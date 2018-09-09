@@ -180,6 +180,12 @@ public class List {
    * items in the list? Would size variable be useful?
    */
 
+/**
+ * @brief [brief description]
+ * @details [long descriptio]
+ * @param index index
+ * @return index
+ */
   public int get(final int index) {
     // Replace the code below to write the code for get
     if (index < 0 || index >= size) {
@@ -203,6 +209,12 @@ public class List {
    * the list and not all the elements of the array.
    */
 
+/**
+ * @brief [brief description]
+ * @details [long descriptio]
+ * @param toString string
+ * @return string
+ */
   public String toString() {
     // Replace the code below
     if (size == 0) {
