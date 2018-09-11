@@ -1,7 +1,25 @@
 import java.util.Scanner;
 import java.io.BufferedInputStream;
 import java.util.Arrays;
+/**
+ * @brief [brief description]
+ * @details [long description]
+ * 
+ * @param int [description]
+ * @param int [description]
+ * 
+ * @return [description]
+ */
 class Sortedset extends Set {
+    /**
+     * @brief [brief description]
+     * @details [long description]
+     * 
+     * @param int [description]
+     * @param int [description]
+     * 
+     * @return [description]
+     */
     public int[] subSet(final int fromElement, final int toElement) {
         if (fromElement > toElement) {
             System.out.println("Invalid Arguments to Subset Exception");
@@ -9,11 +27,11 @@ class Sortedset extends Set {
         }
         int[] result = new int[size];
         int k = 0;
-        for (int i=0;i<size;i++) {
-            if (set[i]>=fromElement) {
-                for (int j=i; j<size;j++) {
-                    if (set[j]<toElement) {
-                        result[k++]=set[i];
+        for (int i = 0; i < size; i++) {
+            if (set[i] >= fromElement) {
+                for (int j = i; j < size; j++) {
+                    if (set[j] < toElement) {
+                        result[k++] = set[i];
                     }
                     break;
                 }
@@ -64,11 +82,25 @@ class Sortedset extends Set {
         sort(set);
     }
 }
-
+/**
+ * @brief [brief description]
+ * @details [long description]
+ * @return [description]
+ */
 final class Solution {
-
+/**
+ * @brief [brief description]
+ * @details [long description]
+ * @return [description]
+ */
     private Solution() { }
-
+/**
+ * @brief [brief description]
+ * @details [long description]
+ * 
+ * @param String [description]
+ * @return [description]
+ */
     public static int[] intArray(final String s) {
         String input = s;
         if (input.equals("[]")) {
@@ -81,7 +113,12 @@ final class Solution {
                .mapToInt(Integer::parseInt)
                .toArray();
     }
-
+/**
+ * @brief [brief description]
+ * @details [long description]
+ * 
+ * @param String [description]
+ */
     public static void main(final String[] args) {
         Sortedset s = new Sortedset();
         Scanner stdin = new Scanner(new BufferedInputStream(System.in));
