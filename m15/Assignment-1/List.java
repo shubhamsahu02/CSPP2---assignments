@@ -180,7 +180,7 @@ public class List {
              throw new InvalidPositionException("");
         }
     } catch (InvalidPositionException ip) {
-            System.out.println("Invalid position Exception");
+            System.out.println("Invalid Position Exception");
         }
     }
 
@@ -272,14 +272,14 @@ public class List {
     public void addAll(final int[] newArray) {
         // write the logic
         int len=newArray.length + size;
-        int temp=0;
-        for (int i=size; i < len; i++) {
-            if (size==list.length) {
+        int temp = 0;
+        for (int i = size; i < len; i++) {
+            if (size == list.length) {
             resize();
         }
-        list[i]=newArray[temp];
-        temp+=1;
-        size+= 1;
+        list[i] = newArray[temp];
+        temp += 1;
+        size += 1;
         }
     }
     /**
