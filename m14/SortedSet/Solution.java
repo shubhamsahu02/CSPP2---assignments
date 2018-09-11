@@ -101,16 +101,12 @@ class Sortedset extends Set {
     }
 }
 /**
- * @brief [brief description]
- * @details [long description]
- * @return [description]
- */
+ * Class for solution.
+ **/
 final class Solution {
 /**
- * @brief [brief description]
- * @details [long description]
- * @return [description]
- */
+     * Constructs the object.
+     */
     private Solution() { }
 /**
  * @brief [brief description]
