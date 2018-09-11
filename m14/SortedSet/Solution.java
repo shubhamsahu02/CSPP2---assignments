@@ -64,7 +64,7 @@ class Sortedset extends Set {
     /**
      * @brief [brief description]
      * @details [long description]
-     * @param int [description]
+     * @param item [description]
      */
     public void addAll(final int[] item) {
             for (int i:item) {
@@ -74,7 +74,7 @@ class Sortedset extends Set {
     /**
      * @brief [brief description]
      * @details [long description]
-     * @param int [description]
+     * @param arr [description]
      */
     public void sort(final int[] arr) {
         int temp;
@@ -91,7 +91,7 @@ class Sortedset extends Set {
 /**
  * @brief [brief description]
  * @details [long description]
- * @param int [description]
+ * @param item [description]
  */
     public void add(final int item) {
         if (!contains(item)) {
@@ -115,7 +115,7 @@ final class Solution {
 /**
  * @brief [brief description]
  * @details [long description]
- * @param String [description]
+ * @param s [description]
  * @return [description]
  */
     public static int[] intArray(final String s) {
@@ -133,7 +133,7 @@ final class Solution {
 /**
  * @brief [brief description]
  * @details [long description]
- * @param String [description]
+ * @param args [description]
  */
     public static void main(final String[] args) {
         Sortedset s = new Sortedset();
