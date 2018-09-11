@@ -129,6 +129,9 @@ final class Solution {
                     s.add(intArr);
                 }
                 break;
+                case "print":
+                System.out.println(s);
+                break;
                 default:
                 break;
             }
