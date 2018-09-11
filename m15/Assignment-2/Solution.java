@@ -47,7 +47,7 @@ class Sortedset extends Set {
         }
         return Arrays.copyOf(result, k);
         } catch (InvalidSubsetSelectionException ia) {
-            System.out.println("Invalid Argumentxs to Subset Exception");
+            System.out.println("Invalid Arguments to Subset Exception");
         }
         return null;
     }
@@ -81,7 +81,7 @@ class Sortedset extends Set {
     public int last() throws SetEmptyException {
         if (size == 0) {
             // System.out.println("Set Empty Exception");
-            throw new SetEmptyException("Set Empty Exxception");
+            throw new SetEmptyException("Set Empty Exception");
             // return -1;
         } else {
             return set[size - 1];
