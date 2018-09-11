@@ -39,6 +39,13 @@ class Sortedset extends Set {
         }
         return Arrays.copyOf(result, k);
     }
+    /**
+     * @brief [brief description]
+     * @details [long description]
+     * 
+     * @param int [description]
+     * @return [description]
+     */
     public int[] headSet(final int toElement) {
         int[] result = new int[size];
         int count = 0;
@@ -50,6 +57,11 @@ class Sortedset extends Set {
         }
         return Arrays.copyOf(result, count);
     }
+    /**
+     * @brief [brief description]
+     * @details [long description]
+     * @return [description]
+     */
     public int last() {
         if (size == 0) {
             System.out.println("Set Empty Exception");
@@ -57,11 +69,23 @@ class Sortedset extends Set {
         }
         return set[size - 1];
     }
+    /**
+     * @brief [brief description]
+     * @details [long description]
+     * 
+     * @param int [description]
+     */
     public void addAll(final int[] item) {
             for (int i:item) {
                 this.add(i);
         }
     }
+    /**
+     * @brief [brief description]
+     * @details [long description]
+     * 
+     * @param int [description]
+     */
     public void sort(final int[] arr) {
         int temp;
         for (int i = 0; i < size; i++) {
@@ -74,7 +98,12 @@ class Sortedset extends Set {
             }
         }
     }
-
+/**
+ * @brief [brief description]
+ * @details [long description]
+ * 
+ * @param int [description]
+ */
     public void add(final int item) {
         if (!contains(item)) {
             set[size++] = item;
