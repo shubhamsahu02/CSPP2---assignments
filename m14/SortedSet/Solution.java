@@ -4,10 +4,8 @@ import java.util.Arrays;
 /**
  * @brief [brief description]
  * @details [long description]
- * 
  * @param int [description]
  * @param int [description]
- * 
  * @return [description]
  */
 class Sortedset extends Set {
@@ -17,7 +15,6 @@ class Sortedset extends Set {
      * 
      * @param int [description]
      * @param int [description]
-     * 
      * @return [description]
      */
     public int[] subSet(final int fromElement, final int toElement) {
@@ -42,7 +39,6 @@ class Sortedset extends Set {
     /**
      * @brief [brief description]
      * @details [long description]
-     * 
      * @param int [description]
      * @return [description]
      */
@@ -72,7 +68,6 @@ class Sortedset extends Set {
     /**
      * @brief [brief description]
      * @details [long description]
-     * 
      * @param int [description]
      */
     public void addAll(final int[] item) {
@@ -83,7 +78,6 @@ class Sortedset extends Set {
     /**
      * @brief [brief description]
      * @details [long description]
-     * 
      * @param int [description]
      */
     public void sort(final int[] arr) {
@@ -101,7 +95,6 @@ class Sortedset extends Set {
 /**
  * @brief [brief description]
  * @details [long description]
- * 
  * @param int [description]
  */
     public void add(final int item) {
@@ -126,7 +119,6 @@ final class Solution {
 /**
  * @brief [brief description]
  * @details [long description]
- * 
  * @param String [description]
  * @return [description]
  */
@@ -145,7 +137,6 @@ final class Solution {
 /**
  * @brief [brief description]
  * @details [long description]
- * 
  * @param String [description]
  */
     public static void main(final String[] args) {
