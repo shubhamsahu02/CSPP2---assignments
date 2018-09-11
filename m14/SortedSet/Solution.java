@@ -2,20 +2,16 @@ import java.util.Scanner;
 import java.io.BufferedInputStream;
 import java.util.Arrays;
 /**
- * @brief [brief description]
- * @details [long description]
- * @param int [description]
- * @param int [description]
- * @return [description]
+ *Class for sortedset.
  */
 class Sortedset extends Set {
     /**
-     * @brief [brief description]
-     * @details [long description]
-     * 
-     * @param int [description]
-     * @param int [description]
-     * @return [description]
+     * function_description.
+     *
+     * @param      fromElement  The from element
+     * @param      toElement    To element
+     *
+     * @return     { description_of_the_return_value }
      */
     public int[] subSet(final int fromElement, final int toElement) {
         if (fromElement > toElement) {
@@ -39,7 +35,7 @@ class Sortedset extends Set {
     /**
      * @brief [brief description]
      * @details [long description]
-     * @param int [description]
+     * @param toElement [description]
      * @return [description]
      */
     public int[] headSet(final int toElement) {
