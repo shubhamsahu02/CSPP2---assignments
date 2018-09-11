@@ -2,8 +2,15 @@ import java.util.Scanner;
 import java.io.BufferedInputStream;
 import java.util.Arrays;
 
+/**
+ * Exception for signaling invalid subset selection errors.
+ */
 class InvalidSubsetSelectionException extends Exception {
-
+    /**
+     * Constructs the object.
+     *
+     * @param      s     { parameter_description }
+     **/
     InvalidSubsetSelectionException(final String s) {
         super(s);
     }
@@ -26,6 +33,14 @@ class SetEmptyException extends Exception {
  * Class for sortedset.
  */
 class Sortedset extends Set {
+    /**
+     * function_description.
+     *
+     * @param      fromElement  The from element
+     * @param      toElement    To element
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int[] subSet(final int fromElement, final int toElement) {
         try {
         if (fromElement > toElement) {
