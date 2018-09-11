@@ -51,6 +51,13 @@ class Sortedset extends Set {
         }
         return null;
     }
+    /**
+     * function_description.
+     *
+     * @param      toElement  To element
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int[] headSet(final int toElement) {
         try {
             int[] result = new int[size];
@@ -67,7 +74,7 @@ class Sortedset extends Set {
             throw new SetEmptyException("");
         }
         } catch (SetEmptyException se) {
-            System.out.println("Set empty Exception");
+            System.out.println("Set Empty Exception");
         }
         return null;
     }
