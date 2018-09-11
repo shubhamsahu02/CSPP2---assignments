@@ -33,6 +33,10 @@ class Sortedset extends Set {
         return Arrays.copyOf(result, count);
     }
     public int last() {
+        if (size == 0) {
+            System.out.println("Set Empty Exception");
+            return -1;
+        }
         return set[size - 1];
     }
     public void addAll(final int[] item) {
