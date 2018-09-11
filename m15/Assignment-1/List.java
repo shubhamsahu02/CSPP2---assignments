@@ -271,7 +271,7 @@ public class List {
     **/
     public void addAll(final int[] newArray) {
         // write the logic
-        int len=newArray.length + size;
+        int len = newArray.length + size;
         int temp = 0;
         for (int i = size; i < len; i++) {
             if (size == list.length) {
@@ -300,7 +300,16 @@ public class List {
         }
 
      }
-
+    /**
+    * Returns a list object containing elements, including startIndex and
+    * excluding endIndex. The first parameter indicates the startIndex and the
+    * second parameter indicates the endIndex. Returns null and print
+    * "Index Out of Bounds Exception" if any of values start and end are
+    * and also if start is greater than end.
+    * @param      start  The start
+    * @param      end    The end
+    * @return     { description_of_the_return_value }
+    **/
     public List subList(final int start, final int end) {
     // write the logic for subList
      // if ((start <= 0 || end > size) || end < 0) {
@@ -324,11 +333,18 @@ public class List {
         return list1;
     }
      } catch (IndexOutOfBoundsException ib) {
-        System.out.println("Index Out of bounds Exception");
+        System.out.println("Index Out of Bounds Exception");
      }
      return null;
     }
 
+    /**
+     * Returns the count of occurances of a given item in the list.
+     *
+     * @param      item  The item.
+     *
+     * @return     { description_of_the_return_value }
+     **/
     public int count(final int item) {
         int count = 0;
         for (int j = 0; j < size; j++) {
@@ -339,12 +355,20 @@ public class List {
         return count;
         // return 0;
     }
-
+    /**
+    * Returns a boolean indicating whether the parameter i.e a List object is
+    * exactly matching with the given list or not.
+    * @param      otherlist  The otherlist
+    * @return     { description_of_the_return_value }
+    **/
     public boolean equals(final List otherlist) {
     // Replace the code below
     return this.toString().equals(otherlist.toString());
     }
-
+    /**
+     * Removes all the elements from list Think about this case and make the.
+     * method the simpler.
+     **/
     public void clear() {
     // write the logic for clear.
         //list.clear();
@@ -355,6 +379,11 @@ public class List {
         size = 0;
     }
 
+    /**
+     * function_description.
+     *
+     * @param      args  The arguments
+     **/
     public static void main(final String[] args) {
         //
         // create an object of the list to invoke methods on it
