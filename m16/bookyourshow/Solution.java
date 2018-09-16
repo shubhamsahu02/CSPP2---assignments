@@ -1,9 +1,6 @@
 import java.util.Scanner;
 /**
- * @brief [brief description]
- * @details [long description]
- *
- * @param String [description]
+ *@param String [description]
  */
 public final class Solution {
 
