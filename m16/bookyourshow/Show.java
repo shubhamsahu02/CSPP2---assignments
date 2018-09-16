@@ -1,27 +1,15 @@
 class Show {
 	String movieName;
-	String movieTime;
-	String[] seatNumbers;
-	Patron[] bookedSeats;
-
-	Show(String movie,String date, String[] seats) {
-		movieName = movie;
-		movieTime = date;
-		seatNumbers = seats;
-		bookedSeats = new Patron[seats.length];
+	String dateTime;
+	String[] seatNumber;
+	Patron[] booked;
+	Show(String movieName, String dateTime, String[] seatNumber) {
+		this.movieName = movieName;
+		this.dateTime = dateTime;
+		this. seatNumber = seatNumber;
+		this.booked = new Patron[seatNumber.length];
 	}
-
-	 public String toString() {
-    String s = "";
-    s = s + movieName + ",";
-    s = s + movieTime;
-    return s;
-  }
-  public String toString(Show s1) {
-    String s = "";
-    s = s + movieName + ",";
-    s = s + movieTime;
-    return s;
-  }
-
+	public String toString() {
+		return movieName+","+dateTime;
+	}
 }
