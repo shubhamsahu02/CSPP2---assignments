@@ -1,4 +1,10 @@
 import java.util.Scanner;
+/**
+ * @brief [brief description]
+ * @details [long description]
+ *
+ * @param String [description]
+ */
 public final class Solution {
 
     public static void main(final String[] args) {
