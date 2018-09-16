@@ -13,6 +13,9 @@ public final class Solution {
 
     }
 
+/**
+ * @param String string
+ */
     public static void main(final String[] args) {
         BookYourShow bys = new BookYourShow();
         Scanner scan = new Scanner(System.in);
