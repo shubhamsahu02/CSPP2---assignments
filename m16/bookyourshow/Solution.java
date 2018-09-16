@@ -14,7 +14,7 @@ public final class Solution {
     }
 
 /**
- * @param String string
+ * @param args argument
  */
     public static void main(final String[] args) {
         BookYourShow bys = new BookYourShow();
