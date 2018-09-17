@@ -288,7 +288,7 @@ public final class Solution {
             for (int i = 0; i < q; i++) {
                 String line = scan.nextLine();
                 String[] input = line.split(":");
-                if (input.length == five && input[1].length() > 1) {
+                if (input.length == five && input[0].length() > 1) {
                     String[] choic = line.split(",");
                     if (choic.length > 1) {
                         if (Integer.parseInt(input[2]) <= choic.length) {
