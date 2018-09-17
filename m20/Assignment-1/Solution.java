@@ -295,7 +295,7 @@ public final class Solution {
                             if (Integer.parseInt(input[three]) > 0) {
                                 if (Integer.parseInt(input[four]) <= 0) {
                                     quiz.addQuestion(new Question(input[0],
-                                        choic,Integer.parseInt(input[2]),
+                                        choic, Integer.parseInt(input[2]),
                                         Integer.parseInt(input[three]),
                                         Integer.parseInt(input[four])));
                                 } else {
