@@ -289,7 +289,7 @@ public final class Solution {
                 String line = scan.nextLine();
                 String[] input = line.split(":");
                 if (input.length == five && input[0].length() > 1) {
-                    String[] choic = line.split(",");
+                    String[] choic = input[1].split(",");
                     if (choic.length > 1) {
                         if (Integer.parseInt(input[2]) <= choic.length) {
                             if (Integer.parseInt(input[three]) > 0) {
