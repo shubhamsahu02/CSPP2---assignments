@@ -21,14 +21,14 @@ class Task {
         if (tit != null && !tit.isEmpty()) {
             this.title = tit;
         } else {
-            throw new Exception("Title not provided "); 
+            throw new Exception("Title not provided ");
         }
         if (time > 0) {
             this.timeToComplete = time;
         } else {
             throw new Exception("Invalid timeToComplete " + time);
         }
-        if (sta.equals("done")||sta.equals("todo")) {
+        if (sta.equals("done") || sta.equals("todo")) {
                     this.status = sta;
         } else {
             throw new Exception("Invalid status " + sta);
@@ -76,7 +76,8 @@ class Todoist {
 
      public void toString1() {
         for (int i = 0; i < size; i++) {
-            System.out.println(tit[i].getTitle() + ", " + tit[i].getAssigned() + ", " + tit[i].getTime() + ", " + tit[i].getImportance() + ", " + tit[i].getUrgency());
+            System.out.println(tit[i].getTitle() + ", " + tit[i].getAssigned()
+             + ", " + tit[i].getTime() + ", " + tit[i].getImportance() + ", " + tit[i].getUrgency());
         }
      }
 }
