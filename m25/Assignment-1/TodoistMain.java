@@ -1,20 +1,24 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
-/**
+/**.
   * write your code below this comment
   */
 class Task {
-    String title;
-    String assignedTo;
-    int timeToComplete;
-    boolean important;
-    boolean urgent;
-    String status;
+/**.
+  * Task class
+  */
+    private String title;
+    private String assignedTo;
+    private int timeToComplete;
+    private boolean important;
+    private boolean urgent;
+    private String status;
     Task() {
 
     }
-    Task( final String tit, final String assign, final int time, final boolean imp, final boolean urg, final String sta) throws Exception {
+    Task( final String tit, final String assign, final int time, final boolean imp,
+     final boolean urg, final String sta) throws Exception {
         this.assignedTo = assign;
         this.important = imp;
         this.urgent = urg;
