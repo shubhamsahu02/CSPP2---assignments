@@ -64,7 +64,7 @@ class Todoist {
     }
 
     private void resize() {
-        tit = Arrays.copyOf(tit, 2*size);
+        tit = Arrays.copyOf(tit, 2 * size);
     }
      public void addTask(Task things) {
         if(size == tit.length) {
@@ -76,7 +76,7 @@ class Todoist {
 
      public void toString1() {
         for(int i = 0; i < size ; i++ ) {
-            System.out.println(tit[i].getTitle()+", "+tit[i].getAssigned()+", "+tit[i].getTime()+", "+tit[i].getImportance()+", "+tit[i].getUrgency());
+            System.out.println(tit[i].getTitle() + ", " + tit[i].getAssigned() + ", " + tit[i].getTime() + ", " + tit[i].getImportance() + ", " + tit[i].getUrgency());
         }
      }
 }
