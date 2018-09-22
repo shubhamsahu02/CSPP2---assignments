@@ -14,21 +14,21 @@ class Task {
     Task() {
 
     }
-    Task( String tit, String assign, int time, boolean imp, boolean urg, String sta) throws Exception {
+    Task( final String tit, final String assign, final int time, final boolean imp, final boolean urg, final String sta) throws Exception {
         this.assignedTo = assign;
         this.important = imp;
         this.urgent = urg;
-        if(tit != null && !tit.isEmpty()) {
+        if (tit != null && !tit.isEmpty()) {
             this.title = tit;
         } else {
             throw new Exception("Title not provided "); 
         }
-        if(time > 0) {
+        if (time > 0) {
             this.timeToComplete = time;
         } else {
             throw new Exception("Invalid timeToComplete " + time);
         }
-        if(sta.equals("done")||sta.equals("todo")) {
+        if (sta.equals("done")||sta.equals("todo")) {
                     this.status = sta;
         } else {
             throw new Exception("Invalid status " + sta);
@@ -67,7 +67,7 @@ class Todoist {
         tit = Arrays.copyOf(tit, 2 * size);
     }
      public void addTask(Task things) {
-        if(size == tit.length) {
+        if (size == tit.length) {
             resize();
             tit[size++] = things;
         }
@@ -75,7 +75,7 @@ class Todoist {
      }
 
      public void toString1() {
-        for(int i = 0; i < size ; i++ ) {
+        for (int i = 0; i < size; i++) {
             System.out.println(tit[i].getTitle() + ", " + tit[i].getAssigned() + ", " + tit[i].getTime() + ", " + tit[i].getImportance() + ", " + tit[i].getUrgency());
         }
      }
