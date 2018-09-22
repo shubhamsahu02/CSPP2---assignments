@@ -11,7 +11,7 @@ class Task {
 	boolean urgent;
 	String status;
 
-
+	
 	Task(String title, String assignedTo, int timeToComplete, boolean important,
 	     boolean urgent, String status) throws Exception {
 		if (title == null || title.equals("")) throw new Exception("Title not provided");
@@ -29,7 +29,7 @@ class Task {
 		String b = "Not Urgent";
 		if(important) a = "Important";
 		if(urgent) b = "Urgent";
-		String display = title + ", " + assignedTo+ ", "+ timeToComplete+", " + a + ", " + b + ", " + status;
+		String display = title + ", " + assignedTo+", "+ timeToComplete+", "+ a+", "+ b+", "+ status;
 		return display;
 	}
 }
