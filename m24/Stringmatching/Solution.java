@@ -78,7 +78,9 @@ public final class Solution {
     private Solution() {
 
     }
-
+    /**
+     * @param args arguments
+     */
     public static void main(final String[] args) {
         try  {
         Scanner scan = new Scanner(System.in);
