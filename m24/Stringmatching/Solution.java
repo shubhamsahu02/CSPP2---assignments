@@ -43,8 +43,11 @@ class Data {
         }
     }
         return map;
+    /**document distance.
+     *@param textOne first file
+     *@param textTwo second file
+     */
     }
-
 
     public double stringMatching(final String textOne, final String textTwo) {
         int lengthOne = textOne.length();
