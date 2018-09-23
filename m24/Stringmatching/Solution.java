@@ -16,7 +16,7 @@ class Data {
     Data() {
     }
 
-    /**method to convert string
+    /**method to convert string.
     *@param file File
     *@return string
     */
@@ -63,7 +63,7 @@ class Data {
         return map;
     }
 
-    /**method
+    /**method.
      *@param textOne first
      *@param textTwo second
      *@return document distance
@@ -100,7 +100,6 @@ class Data {
 */
 
 public final class Solution {
-    
     /** an empty constructor.
     */
 
