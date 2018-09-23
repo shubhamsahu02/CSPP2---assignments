@@ -6,10 +6,20 @@ import java.util.HashMap;
 import java.util.NoSuchElementException;
 import java.util.Map;
 
-class Data {
+/**
+*class.
+*/
 
+class Data {
+    /** this is an empty constructor.
+    */
     Data() {
     }
+
+    /**method to convert string
+    *@param file File
+    *@return string
+    */
 
     public static String toText(final File file) {
         String s = "";
@@ -28,6 +38,14 @@ class Data {
         return s;
     }
 
+    /**
+     *to remove the unnecessary characters.
+     * @param text text
+     *
+     * @return map which contains
+     * frequency of words.
+     */
+
     public Map remove(final String text) {
         text.toLowerCase();
         text.replaceAll("[0-9_]", "");
@@ -43,11 +61,13 @@ class Data {
         }
     }
         return map;
-    /**document distance.
-     *@param textOne first file
-     *@param textTwo second file
-     */
     }
+
+    /**method
+     *@param textOne first
+     *@param textTwo second
+     *@return document distance
+     */
 
     public double stringMatching(final String textOne, final String textTwo) {
         int lengthOne = textOne.length();
@@ -76,15 +96,20 @@ class Data {
     }
 }
 
+/** this is the solution..
+*/
+
 public final class Solution {
-    /**constructor.
+    
+    /** an empty constructor.
     */
 
     private Solution() {
 
     }
     /**
-     * @param args arguments
+     * this is main method.
+     * @param  args arguments
      */
     public static void main(final String[] args) {
         try  {
