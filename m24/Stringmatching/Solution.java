@@ -74,6 +74,8 @@ class Data {
 }
 
 public final class Solution {
+    /**constructor.
+    */
 
     private Solution() {
 
