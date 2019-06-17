@@ -15,7 +15,7 @@ public class Solution {
 
     public static String reverse(String s) {
         String reverse = "";
-        for(int i = s.length(); i >= 0; i--) {
+        for(int i = s.length() - 1; i >= 0; i--) {
             reverse += s.charAt(i);
         }
 
