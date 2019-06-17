@@ -1,40 +1,60 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 olleH
 
 Your Output: 
-olleH
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:44)
+	at java.base/java.lang.String.charAt(String.java:692)
+	at Solution.reverse(Solution.java:19)
+	at Solution.main(Solution.java:11)
 ----------------------------------------
 
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 madam
 
 Your Output: 
-madam
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:44)
+	at java.base/java.lang.String.charAt(String.java:692)
+	at Solution.reverse(Solution.java:19)
+	at Solution.main(Solution.java:11)
 ----------------------------------------
 
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 321olleh
 
 Your Output: 
-321olleh
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 8
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:44)
+	at java.base/java.lang.String.charAt(String.java:692)
+	at Solution.reverse(Solution.java:19)
+	at Solution.main(Solution.java:11)
 ----------------------------------------
 
-########## Testcase 3: Passed ##########
+########## Testcase 3: Failed ##########
 Expected Output: 
 gninroM dooG
 
 Your Output: 
-gninroM dooG
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 12
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:44)
+	at java.base/java.lang.String.charAt(String.java:692)
+	at Solution.reverse(Solution.java:19)
+	at Solution.main(Solution.java:11)
 ----------------------------------------
 
-########## Testcase 4: Passed ##########
+########## Testcase 4: Failed ##########
 Expected Output: 
 .detneiro-tcejbo dna desab-ssalc ,tnerrucnoc si taht egaugnal gnimmargorp-retupmoc esoprup-lareneg a si avaJ
 
 Your Output: 
-.detneiro-tcejbo dna desab-ssalc ,tnerrucnoc si taht egaugnal gnimmargorp-retupmoc esoprup-lareneg a si avaJ
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 108
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:44)
+	at java.base/java.lang.String.charAt(String.java:692)
+	at Solution.reverse(Solution.java:19)
+	at Solution.main(Solution.java:11)
 ----------------------------------------
 
